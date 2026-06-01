@@ -97,11 +97,11 @@
     background-color: rgb(
       from var(--c-green-400) calc(r * 0.9) calc(g * 0.9) calc(b * 0.9)
     );
-    &:active {
-      transform: translateY(10px);
-      box-shadow: unset;
-      transition-duration: 0s;
-    }
+  }
+  &:active {
+    transform: translateY(10px);
+    box-shadow: unset;
+    transition-duration: 0s;
   }
 }
 .section2 {
