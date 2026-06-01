@@ -1,0 +1,23 @@
+@use "../styles/abstracts/z-index" as abs;
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  background-color: var(--c-teal-100);
+
+  padding-block: #{abs.get-clamp(25px, 162px, abs.$bp-sm, abs.$bp-md)};
+  padding-inline: #{abs.get-clamp(32px, 67px, abs.$bp-sm, abs.$bp-md)};
+}
+
+.header {
+  @extend %sr-only;
+}
+
+.main {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  width: 100%;
+}

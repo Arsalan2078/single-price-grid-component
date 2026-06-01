@@ -1,5 +1,6 @@
 ---
 import "../styles/globals.scss";
+import css from "./index.module.scss";
 import SinglePriceGridComponent from "../components/SinglePriceGridComponent.astro";
 
 const title = "Frontend Mentor | Single Price Grid Component";
@@ -13,12 +14,12 @@ const title = "Frontend Mentor | Single Price Grid Component";
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body>
-    <header>
+  <body class={css.body}>
+    <header class={css.header}>
       <h1>{title}</h1>
     </header>
 
-    <main>
+    <main class={css.main}>
       <SinglePriceGridComponent />
     </main>
   </body>
