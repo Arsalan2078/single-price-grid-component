@@ -2,16 +2,39 @@
 
 :root {
   // colors
+  --c-white: #ffffff;
+  --c-gray-500: #9aa7be;
+  --c-teal-500: #2ab3b1;
+  --c-teal-400: #4abfbd;
+  --c-teal-100: #e6eff5;
+  --c-green-400: #c0df33;
 
   // font-families
+  --ff-karla: "Karla", sans-serif;
 
   // font-weights
+  --fw-400: 400;
+  --fw-700: 700;
 
   // font-sizes
+  --fs-32: #{abs.to-rem(32px)};
+  --fs-24: #{abs.to-rem(24px)};
+  --fs-18: #{abs.to-rem(18px)};
+  --fs-16: #{abs.to-rem(16px)};
+  --fs-14: #{abs.to-rem(14px)};
 
   // line-heights
+  --lh-115: 115%;
+  --lh-145: 145%;
+  --lh-165: 165%;
 
   // letter-spacings
+  --ls-0: 0;
+  --ls-neg-025: #{abs.to-rem(-0.25px)};
+  --ls-neg-040: #{abs.to-rem(-0.4px)};
+  --ls-neg-050: #{abs.to-rem(-0.5px)};
 
   // root styles
+  color-scheme: light;
+  font-family: var(--ff-karla);
 }

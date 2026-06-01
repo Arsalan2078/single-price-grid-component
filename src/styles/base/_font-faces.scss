@@ -2,3 +2,18 @@
   google-webfonts-helper: A Hassle-Free Way to Self-Host Google Fonts
   Web page: https://gwfh.mranftl.com/fonts
 ***/
+
+@font-face {
+  font-display: swap;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Karla/karla-v33-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Karla/karla-v33-latin-700.woff2") format("woff2");
+}
